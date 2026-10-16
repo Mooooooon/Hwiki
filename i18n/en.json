@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "Hwiki 测试": "Hwiki Test",
   "选择情景": "Select Scenario",
   "返回": "Back",
@@ -11,6 +12,8 @@
   "情欲与常规性交": "Desire and Regular Sex",
   "爱抚/身体服务": "Caressing / Body Service",
   "初次爱抚": "First Caress",
+=======
+>>>>>>> 83e6cc212575a48c19774faad97f3bcf4a3ca234
   "插件示例": "Plugin Example",
   "示例按钮": "Example Button",
   "示例开关": "Example Switch"
