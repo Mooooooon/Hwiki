@@ -18,21 +18,30 @@
         <hr class="sysHR" />
       </div>
     </div>
+<<<<<<< HEAD
 
     <Teleport v-if="button_destination" defer :to="button_destination">
       <PromptBar />
     </Teleport>
+=======
+>>>>>>> 2af7a7a77b2fe69fd9a6e41d758b5a3437f4a64e
   </div>
 </template>
 
 <script setup lang="ts">
+<<<<<<< HEAD
 import PromptBar from '@/PromptBar.vue';
 import { useButtonDestinationElement } from '@/panel/composable/useButtonDestinationElement';
+=======
+>>>>>>> 2af7a7a77b2fe69fd9a6e41d758b5a3437f4a64e
 import { useSettingsStore } from '@/store/settings';
 import { storeToRefs } from 'pinia';
 
 const { settings } = storeToRefs(useSettingsStore());
+<<<<<<< HEAD
 const button_destination = useButtonDestinationElement();
+=======
+>>>>>>> 2af7a7a77b2fe69fd9a6e41d758b5a3437f4a64e
 
 const handle_button_click = () => {
   toastr.success('你好呀!');

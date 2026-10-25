@@ -147,7 +147,10 @@ declare global {
   const useBreakpoints: typeof import('@vueuse/core').useBreakpoints
   const useBroadcastChannel: typeof import('@vueuse/core').useBroadcastChannel
   const useBrowserLocation: typeof import('@vueuse/core').useBrowserLocation
+<<<<<<< HEAD
   const useButtonDestinationElement: typeof import('./src/panel/composable/useButtonDestinationElement').useButtonDestinationElement
+=======
+>>>>>>> 2af7a7a77b2fe69fd9a6e41d758b5a3437f4a64e
   const useCached: typeof import('@vueuse/core').useCached
   const useClipboard: typeof import('@vueuse/core').useClipboard
   const useClipboardItems: typeof import('@vueuse/core').useClipboardItems
